@@ -33,6 +33,8 @@ p {
   background-color: #D2EFF5;
 }
 #top {
+  position: absolute;
+  top: 0px;
   height: 25vw;
   width: 100vw;
   background: -webkit-linear-gradient(290deg, #4D9DAC, #308494); /* For Safari 5.1 to 6.0 */
