@@ -6,6 +6,10 @@ h1 {
 body {
   background-color: #DE427C
 }
+h1, p {
+  text-align: center;
+  color: #6C0028;
+}
 #grad1 {
   height: 200px;
   background: -webkit-linear-gradient(left, #B10041 , #6C0028); /* For Safari 5.1 to 6.0 */
@@ -13,7 +17,7 @@ body {
   background: -moz-linear-gradient(right, #B10041, #6C0028); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, #B10041 , #6C0028); /* Standard syntax (must be last) */
 }
-h1, p {
-  text-align: center;
-  color: #6C0028;
+#blank1 {
+  height: 200px;
+  background-color: white;
 }
