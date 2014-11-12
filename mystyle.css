@@ -30,6 +30,8 @@ p {
   background: linear-gradient(to right, #B10041 , #6C0028); /* Standard syntax (must be last) */
 }
 #blank1 {
+  position: absolute;
+  top: 25vw;
   height: 25vw;
   width: 100vw;
   background-color: #D2EFF5;
