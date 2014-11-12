@@ -4,11 +4,11 @@ html, body {
 }
 h1 {
   font-size: 5vw;
-  border: .5vw solid #AEDEE7;
+  border: .5vw solid #F9FEFF;
   margin: 2.5vw;
   padding: 1vw;
   text-align: center;
-  color: #AEDEE7;
+  color: #F9FEFF;
 }
 body {
   background-color: #D2EFF5;
@@ -16,7 +16,7 @@ body {
 p {
   font-size: 2.5vw;
   text-align: center;
-  color: #AEDEE7;
+  color: #F9FEFF;
 }
 #grad1 {
   position: absolute;
@@ -86,14 +86,14 @@ p {
 @-webkit-keyframes myfirst {
   0%   {top:0vw;}
   .001% {top:100vw;}
-  100% {top:40vw;}
+  100% {top:45vw;}
 }
 
 /* Standard syntax */
 @keyframes myfirst {
   0%   {top:0vw;}
   .001% {top:100vw;}
-  100% {top:40vw;}
+  100% {top:45vw;}
 }
 
 
@@ -101,12 +101,12 @@ p {
 @-webkit-keyframes my2nd {
   0%   {top:0vw;}
   .001% {top:100vw;}
-  100% {top:10vw;}
+  100% {top:15vw;}
 }
 
 /* Standard syntax */
 @keyframes my2nd {
   0%   {top:0vw;}
   .001% {top:100vw;}
-  100% {top:10vw;}
+  100% {top:15vw;}
 }
