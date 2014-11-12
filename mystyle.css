@@ -11,10 +11,10 @@ h1 {
 }
 body {
   /*background-color: #DE427C*/
-  background: -webkit-linear-gradient(left, #B10041 , #6C0028); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, #B10041, #6C0028); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, #B10041, #6C0028); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, #B10041 , #6C0028); /* Standard syntax (must be last) */
+  background: -webkit-linear-gradient(left, #084F82, #05406A); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #084F82, #05406A); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #084F82, #05406A); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #084F82 , #05406A); /* Standard syntax (must be last) */
 }
 p {
   text-align: center;
