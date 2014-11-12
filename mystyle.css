@@ -35,6 +35,10 @@ p {
   height: 25vw;
   width: 100vw;
   background-color: #D2EFF5;
+  -webkit-animation-delay: .5s;
+  -webkit-animation: myfirst 2s; /* Chrome, Safari, Opera */
+  animation-delay: .5s;
+  animation: myfirst 2s;
 }
 #top {
   position: absolute;
@@ -45,4 +49,35 @@ p {
   background: -o-linear-gradient(290deg, #4D9DAC, #308494); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(290deg, #4D9DAC, #308494); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to 290deg, #4D9DAC, #308494); /* Standard syntax (must be last) */
+  -webkit-animation: my2nd 2s; /* Chrome, Safari, Opera */
+  animation: my2nd 2s;
+}
+
+
+@-webkit-keyframes myfirst {
+  0%   {top:0px;}
+  .001% {top:100%;}
+  100% {top:23%;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+  0%   {top:0px;}
+  .001% {top:100%;}
+  100% {top:23%;}
+}
+
+
+
+@-webkit-keyframes my2nd {
+  0%   {top:0px;}
+  .001% {top:100%;}
+  100% {top:0px;}
+}
+
+/* Standard syntax */
+@keyframes my2nd {
+  0%   {top:0px;}
+  .001% {top:100%;}
+  100% {top:0px;}
 }
