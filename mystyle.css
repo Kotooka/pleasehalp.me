@@ -3,10 +3,10 @@ html, body {
   padding: 0; 
 }
 h1 {
-  font-size: 10vw;
+  font-size: 5vw;
   border: 1vw solid #AEDEE7;
-  margin: 10vw;
-  padding: 5vw;
+  margin: 5vw;
+  padding: 2.5vw;
   text-align: center;
   color: #AEDEE7;
 }
@@ -18,7 +18,7 @@ body {
   /*background: linear-gradient(to 290deg, #4D9DAC, #308494); /* Standard syntax (must be last) */
 }
 p {
-  font-size: 7.5vw;
+  font-size: 2.5vw;
   text-align: center;
   color: #AEDEE7;
 }
@@ -38,7 +38,7 @@ p {
 }
 #top {
   position: absolute;
-  top: -100px;
+  top: 0px;
   height: 25vw;
   width: 100vw;
   background: -webkit-linear-gradient(290deg, #4D9DAC, #308494); /* For Safari 5.1 to 6.0 */
