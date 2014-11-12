@@ -76,7 +76,7 @@ p {
 #backgroundTop {
   position:absolute
   width: 100vw;
-  height: 25vw;
+  height: 20vw;
   /*http://i.imgur.com/uiTropu.jpg */
   background: url("http://i.imgur.com/jvlviIg.jpg") no-repeat center;
   background-size: 100vw 25vw;
