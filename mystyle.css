@@ -33,3 +33,10 @@ p {
   width: 100vw;
   background-color: #D2EFF5;
 }
+#top {
+  height: 200px;
+  background: -webkit-linear-gradient(290deg, #4D9DAC, #308494); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(290deg, #4D9DAC, #308494); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(290deg, #4D9DAC, #308494); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to 290deg, #4D9DAC, #308494); /* Standard syntax (must be last) */
+}
