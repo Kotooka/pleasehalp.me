@@ -1,12 +1,12 @@
 html, body { 
-margin: 0; 
-padding: 0; 
+  margin: 0; 
+  padding: 0; 
 }
-
 h1 {
   border: 1px solid #6C0028;
   margin: 100px;
   text-align: center;
+  color: #6C0028;
 }
 body {
   background-color: #DE427C
