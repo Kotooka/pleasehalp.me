@@ -32,11 +32,11 @@ p {
   position: absolute;
   right: 10vw;
   z-index: 8;
-  top: 40vw;
+  top: 45vw;
   height: 25vw;
   width: 80vw;
   background-color: #D2EFF5;
-  border-radius: 1vw;
+  border-radius: .5vw;
   
   -webkit-animation-delay: .5s;
   -webkit-animation: myfirst 2s; /* Chrome, Safari, Opera */
@@ -50,12 +50,9 @@ p {
   z-index: 10;
   height: 25vw;
   width: 80vw;
-  border-radius: 1vw;
+  border-radius: .5vw;
   
-  background: -webkit-linear-gradient(290deg, #4D9DAC, #308494); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(290deg, #4D9DAC, #308494); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(290deg, #4D9DAC, #308494); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to 290deg, #4D9DAC, #308494); /* Standard syntax (must be last) */
+  background-color: #4D9DAC;
   
   -webkit-animation: my2nd 2s; /* Chrome, Safari, Opera */
   animation: my2nd 2s;
@@ -67,7 +64,7 @@ p {
   z-index: 9;
   height: 25vw;
   width: 80vw;
-  border-radius: 1vw;
+  border-radius: .5vw;
   background-color: #78BFCC;
   -webkit-animation: my2nd 2s; /* Chrome, Safari, Opera */
   animation: my2nd 2s;
@@ -81,6 +78,28 @@ p {
   background: url("http://i.imgur.com/jvlviIg.jpg") no-repeat center;
   background-size: 100vw 25vw;
 }
+.btn {
+  -webkit-border-radius: 1;
+  -moz-border-radius: 1;
+  border-radius: .5vw;
+  color: #F9FEFF;
+  font-size: 3vw;
+  background: #4D9DAC;
+  padding: 2px 5px 2px 5px;
+}
+.btn:hover {
+  background: #D2EFF5;
+}
+a {
+  text-decoration: none;
+}
+.a {
+  display: inline-block;
+}
+.wrapper {
+  text-align: center;
+}
+
 
 
 @-webkit-keyframes myfirst {
