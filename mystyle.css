@@ -40,6 +40,7 @@ p {
   background-color: #4D9DAC;
   border-radius: .5vw;
   display: inline-block;
+  max-width: 2000px;
   
   -webkit-animation: myfirst 2.5s; /* Chrome, Safari, Opera */
   animation: myfirst 2.5s;
