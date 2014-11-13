@@ -38,10 +38,8 @@ p {
   background-color: #D2EFF5;
   border-radius: .5vw;
   
-  -webkit-animation-delay: .5s;
-  -webkit-animation: myfirst 2s; /* Chrome, Safari, Opera */
-  animation-delay: .5s;
-  animation: myfirst 2s;
+  -webkit-animation: myfirst 2.5s; /* Chrome, Safari, Opera */
+  animation: myfirst 2.5s;
 }
 #top {
   position: absolute;
@@ -56,6 +54,8 @@ p {
   
   -webkit-animation: my2nd 2s; /* Chrome, Safari, Opera */
   animation: my2nd 2s;
+
+  max-width: 1000px;
 }
 #topBevel {
   position: absolute;
@@ -66,8 +66,11 @@ p {
   width: 80vw;
   border-radius: .5vw;
   background-color: #78BFCC;
-  -webkit-animation: my2ndBevel 2s; /* Chrome, Safari, Opera */
-  animation: my2ndBevel 2s;
+
+  -webkit-animation: my2ndBevel 2.2s; /* Chrome, Safari, Opera */
+  animation: my2ndBevel 2.2s;
+
+  max-width: 1000px;
 }
 
 #backgroundTop {
@@ -104,41 +107,41 @@ a {
 
 @-webkit-keyframes myfirst {
   0%   {top:0vw;}
-  .001% {top:100vw;}
+  .001% {top:140vw;}
   100% {top:45vw;}
 }
 
 /* Standard syntax */
 @keyframes myfirst {
   0%   {top:0vw;}
-  .001% {top:100vw;}
+  .001% {top:140vw;}
   100% {top:45vw;}
 }
 
 
 
 @-webkit-keyframes my2nd {
-  0%   {top:0vw;}
-  .001% {top:100vw;}
-  100% {top:15vw;}
+  0%   {top:0vw; opacity:0;}
+  .001% {top:100vw; opacity:0;}
+  100% {top:15vw; opacity:1;}
 }
 
 /* Standard syntax */
 @keyframes my2nd {
-  0%   {top:0vw;}
-  .001% {top:100vw;}
-  100% {top:15vw;}
+  0%   {top:0vw; opacity:0;}
+  .001% {top:100vw; opacity:0;}
+  100% {top:15vw; opacity:1;}
 }
 
 @-webkit-keyframes my2ndBevel {
-  0%   {top:0vw;}
-  .001% {top:100vw;}
-  100% {top:15.5vw;}
+  0%   {top:0vw; opacity:0;}
+  .001% {top:100vw; opacity:0;}
+  100% {top:15.5vw; opacity:1;}
 }
 
 /* Standard syntax */
 @keyframes my2ndBevel {
-  0%   {top:0vw;}
-  .001% {top:100vw;}
-  100% {top:15.5vw;}
+  0%   {top:0vw; opacity:0;}
+  .001% {top:100vw; opacity:0;}
+  100% {top:15.5vw; opacity:1;}
 }
