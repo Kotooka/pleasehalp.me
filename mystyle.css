@@ -3,10 +3,10 @@ html, body {
   padding: 0; 
 }
 h1 {
-  font-size: 5vw;
-  border: .5vw solid #F9FEFF;
-  margin: 2.5vw;
-  padding: 1vw;
+  font-size: 30px;
+  border: 2px solid #F9FEFF;
+  margin: 10px;
+  padding: 10px;
   text-align: center;
   color: #F9FEFF;
 }
@@ -14,19 +14,21 @@ body {
   background-color: #D2EFF5;
 }
 p {
-  font-size: 2.5vw;
+  font-size: 15px;
   text-align: center;
   color: #F9FEFF;
 }
 #grad1 {
   position: absolute;
-  top: 150%;
+  top: 150vw;
   width: 100%;
   height: 25%;
   background: -webkit-linear-gradient(left, #B10041 , #6C0028); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(right, #B10041, #6C0028); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(right, #B10041, #6C0028); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, #B10041 , #6C0028); /* Standard syntax (must be last) */
+  
+  max-width: 2000px;
 }
 #blank1 {
   position: absolute;
@@ -37,9 +39,27 @@ p {
   width: 80vw;
   background-color: #4D9DAC;
   border-radius: .5vw;
+  display: inline-block;
   
   -webkit-animation: myfirst 2.5s; /* Chrome, Safari, Opera */
   animation: myfirst 2.5s;
+}
+#blank1Bevel {
+  position: absolute;
+  top: 45.5vw;
+  right: 9.5vw;
+  z-index: 7;
+  height: 25vw;
+  width: 80vw;
+  border-radius: .5vw;
+  background-color: #78BFCC;
+  display: inline-block;
+
+  -webkit-animation: myfirstBevel 2.7s; /* Chrome, Safari, Opera */
+  animation: myfirstBevel 2.7s;
+
+  max-width: 2000px;
+  opacity: .5;
 }
 #top {
   position: absolute;
@@ -73,6 +93,7 @@ p {
   animation: my2ndBevel 2.2s;
 
   max-width: 2000px;
+  opacity: .5;
 }
 
 #backgroundTop {
@@ -88,7 +109,7 @@ p {
   -moz-border-radius: 1;
   border-radius: .5vw;
   color: #F9FEFF;
-  font-size: 3vw;
+  font-size: 20px;
   background: #4D9DAC;
   padding: 2px 5px 2px 5px;
 }
@@ -108,16 +129,31 @@ a {
 
 
 @-webkit-keyframes myfirst {
-  0%   {top:0vw;}
-  .001% {top:140vw;}
-  100% {top:45vw;}
+  0%   {top:0vw; opacity:0;}
+  .001% {top:140vw; opacity:0;}
+  100% {top:45vw; opacity:1;}
 }
 
 /* Standard syntax */
 @keyframes myfirst {
-  0%   {top:0vw;}
-  .001% {top:140vw;}
-  100% {top:45vw;}
+  0%   {top:0vw; opacity:0;}
+  .001% {top:140vw; opacity:0;}
+  100% {top:45vw; opacity:1;}
+}
+
+
+
+@-webkit-keyframes myfirstBevel {
+  0%   {top:0vw; opacity:0;}
+  .001% {top:140vw; opacity:0;}
+  100% {top:45.5vw; opacity:.5;}
+}
+
+/* Standard syntax */
+@keyframes myfirstBevel {
+  0%   {top:0vw; opacity:0;}
+  .001% {top:140vw; opacity:0;}
+  100% {top:45.5vw; opacity:0;}
 }
 
 
@@ -138,12 +174,12 @@ a {
 @-webkit-keyframes my2ndBevel {
   0%   {top:0vw; opacity:0;}
   .001% {top:100vw; opacity:0;}
-  100% {top:15.5vw; opacity:1;}
+  100% {top:15.5vw; opacity:.5;}
 }
 
 /* Standard syntax */
 @keyframes my2ndBevel {
   0%   {top:0vw; opacity:0;}
   .001% {top:100vw; opacity:0;}
-  100% {top:15.5vw; opacity:1;}
+  100% {top:15.5vw; opacity:.5;}
 }
