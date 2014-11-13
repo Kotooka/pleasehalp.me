@@ -66,8 +66,8 @@ p {
   width: 80vw;
   border-radius: .5vw;
   background-color: #78BFCC;
-  -webkit-animation: my2nd 2s; /* Chrome, Safari, Opera */
-  animation: my2nd 2s;
+  -webkit-animation: my2ndBevel 2s; /* Chrome, Safari, Opera */
+  animation: my2ndBevel 2s;
 }
 
 #backgroundTop {
@@ -128,4 +128,17 @@ a {
   0%   {top:0vw;}
   .001% {top:100vw;}
   100% {top:15vw;}
+}
+
+@-webkit-keyframes my2ndBevel {
+  0%   {top:0vw;}
+  .001% {top:100vw;}
+  100% {top:15.5vw;}
+}
+
+/* Standard syntax */
+@keyframes my2ndBevel {
+  0%   {top:0vw;}
+  .001% {top:100vw;}
+  100% {top:15.5vw;}
 }
