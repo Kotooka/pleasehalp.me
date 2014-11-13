@@ -55,7 +55,7 @@ p {
   -webkit-animation: my2nd 2s; /* Chrome, Safari, Opera */
   animation: my2nd 2s;
 
-  max-width: 1000px;
+  max-width: 2000px;
 }
 #topBevel {
   position: absolute;
@@ -70,7 +70,7 @@ p {
   -webkit-animation: my2ndBevel 2.2s; /* Chrome, Safari, Opera */
   animation: my2ndBevel 2.2s;
 
-  max-width: 1000px;
+  max-width: 2000px;
 }
 
 #backgroundTop {
