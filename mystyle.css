@@ -3,7 +3,7 @@ html, body {
   padding: 0; 
 }
 h1 {
-  font-size: 30px;
+  font-size: 40px;
   border: 2px solid #F9FEFF;
   margin: 10px;
   padding: 10px;
@@ -14,13 +14,13 @@ body {
   background-color: #F9FEFF;
 }
 p {
-  font-size: 15px;
+  font-size: 20px;
   text-align: center;
   color: #F9FEFF;
 }
 #grad1 {
   position: absolute;
-  top: 150vw;
+  top: 2400px;
   width: 100%;
   height: 25%;
   background: -webkit-linear-gradient(left, #B10041 , #6C0028); /* For Safari 5.1 to 6.0 */
@@ -28,30 +28,30 @@ p {
   background: -moz-linear-gradient(right, #B10041, #6C0028); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, #B10041 , #6C0028); /* Standard syntax (must be last) */
   
-  max-width: 2000px;
 }
 #blank1 {
   position: absolute;
-  right: 10vw;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 8;
-  top: 45vw;
-  height: 25vw;
-  width: 80vw;
+  top: 720px;
+  height: 400px;
+  width: 1280px;
   background-color: #4D9DAC;
   border-radius: .5vw;
   display: inline-block;
-  max-width: 2000px;
   
   -webkit-animation: myfirst 2.5s; /* Chrome, Safari, Opera */
   animation: myfirst 2.5s;
 }
 #blank1Bevel {
   position: absolute;
-  top: 45.5vw;
-  right: 9.5vw;
+  top: 730px;
+  left: 50%;
+  transform: translateX(-630px);
   z-index: 7;
-  height: 25vw;
-  width: 80vw;
+  height: 400px;
+  width: 1280px;
   border-radius: .5vw;
   background-color: #78BFCC;
   display: inline-block;
@@ -59,16 +59,16 @@ p {
   -webkit-animation: myfirstBevel 2.7s; /* Chrome, Safari, Opera */
   animation: myfirstBevel 2.7s;
 
-  max-width: 2000px;
-  opacity: .5;
+  opacity: .75;
 }
 #top {
   position: absolute;
-  top: 15vw;
-  right: 10vw;
+  top: 240px;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 10;
-  height: 25vw;
-  width: 80vw;
+  height: 400px;
+  width: 1280px;
   border-radius: .5vw;
   display: inline-block;
   
@@ -76,16 +76,15 @@ p {
   
   -webkit-animation: my2nd 2s; /* Chrome, Safari, Opera */
   animation: my2nd 2s;
-
-  max-width: 2000px;
 }
 #topBevel {
   position: absolute;
-  top: 15.5vw;
-  right: 9.5vw;
+  top: 250px;
+  left: 50%;
+  transform: translateX(-630px);
   z-index: 9;
-  height: 25vw;
-  width: 80vw;
+  height: 400px;
+  width: 1280px;
   border-radius: .5vw;
   background-color: #78BFCC;
   display: inline-block;
@@ -93,8 +92,7 @@ p {
   -webkit-animation: my2ndBevel 2.2s; /* Chrome, Safari, Opera */
   animation: my2ndBevel 2.2s;
 
-  max-width: 2000px;
-  opacity: .5;
+  opacity: .75;
 }
 
 #backgroundTop {
@@ -105,17 +103,62 @@ p {
   background: url("http://i.imgur.com/jvlviIg.jpg") no-repeat center;
   background-size: 100vw 25vw;
 }
+
+#navbar {
+	z-index: 20;
+	background-color: #78BFCC;
+	height: 160px;
+	width: 140px;
+	border-radius: 10px;
+	position: absolute;
+	top: 280px;
+	left: 50%;
+	transform: translateX(-745px);
+}
+
+#navbarBevel {
+	z-index: 11;
+	background-color: #AEDEE7;
+	height: 160px;
+	width: 140px;
+	border-radius: 10px;
+	position: absolute;
+	top: 290px;
+	left: 50%;
+	transform: translateX(-755px);
+	opacity: .75;
+}
+
+._icon {
+	width: 50px;
+	height: 50px;
+}
+
+._homelink {
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
+  color: #F9FEFF;
+  background-color: #78BFCC;
+  margin: 5px;
+  cursor: pointer;
+}
+
+._homelink:hover {
+  color: #DCF4F8;
+  background-color: #4D9DAC;
+}
+
 .btn {
   -webkit-border-radius: 1;
   -moz-border-radius: 1;
-  border-radius: .5vw;
+  border-radius: 10px;
   color: #F9FEFF;
-  font-size: 20px;
+  font-size: 30px;
   background: #4D9DAC;
   padding: 2px 5px 2px 5px;
 }
 .btn:hover {
-  background: #D2EFF5;
+  background: #126D7E;
 }
 a {
   text-decoration: none;
@@ -147,7 +190,7 @@ a {
 @-webkit-keyframes myfirstBevel {
   0%   {top:0vw; opacity:0;}
   .001% {top:140vw; opacity:0;}
-  100% {top:45.5vw; opacity:.5;}
+  100% {top:45.5vw; opacity:.75;}
 }
 
 /* Standard syntax */
@@ -175,12 +218,12 @@ a {
 @-webkit-keyframes my2ndBevel {
   0%   {top:0vw; opacity:0;}
   .001% {top:100vw; opacity:0;}
-  100% {top:15.5vw; opacity:.5;}
+  100% {top:15.5vw; opacity:.75;}
 }
 
 /* Standard syntax */
 @keyframes my2ndBevel {
   0%   {top:0vw; opacity:0;}
   .001% {top:100vw; opacity:0;}
-  100% {top:15.5vw; opacity:.5;}
+  100% {top:15.5vw; opacity:.75;}
 }
