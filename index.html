@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,44 +7,68 @@
 </head>
 
 <body>
-  <div id="backgroundTop">
-  </div>
-  
-  
-  <div id="top">
-    <h1>Halp Studios</h1>
-    <p>☆～（ゝ。∂）</p>
-  
-    <div class="wrapper">
+
+<div id="navbar">
+  <ul style="display: block; list-style-type: none; padding-left: 5px">
+    <li class="_homelink" onclick="navigateTo('#backgroundTop')">
+	  <a>Home</a>
+	</li>
+	<li class="_homelink" onclick="navigateTo('#download')">
+	  <a>Download</a>
+	</li>
+	<li class="_homelink" onclick="navigateTo('#news')">
+	  <a>News</a>
+	</li>
+	<li class="_homelink" onclick="navigateTo('#blank1')">
+	  <a>About</a>
+	</li>
+  </ul>
+</div>
+
+<div id="navbarBevel">
+</div>
+
+<div id="backgroundTop">
+</div>
+
+<div id="top">
+  <h1>Halp Studios</h1>
+  <p>?~(???)<br>The quick brown fox jumped over a lazy-ass dawg.</p>
+
+  <div id="download" class="wrapper">
     <a class="btn" href="https://mega.co.nz/">Download</a>
-    </div>
   </div>
-  
-  <div id ="topBevel">
-  </div>
-  
-  
-  <div id="blank1">
-    <h1>TESTING</h1>
-  </div>
-  
-  <div id ="blank1Bevel">
-  </div>
-  
-  
-  <div id="grad1">
-    <p>lelelelelel</p>
-  </div>
+</div>
+
+<div id ="topBevel">
+</div>
+
+
+<div id="blank1">
+  <h1>TESTING</h1>
+</div>
+
+<div id ="blank1Bevel">
+</div>
+
+
+<div id="grad1">
+  <p>lelelelelel</p>
+</div>
+
+
 <body>
 
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+function navigateTo(id) {
+  location.href=id;
+}
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-56763661-1', 'auto');
   ga('send', 'pageview');
-
 </script>
 </html>
